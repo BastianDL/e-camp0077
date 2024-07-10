@@ -1,0 +1,7 @@
+h1 = para titulo de artico 
+h2 = para subitutilo
+h3 = para un contenido bajo el subtitulo y asi hasta h8
+<strong> = urgencia importancia seriedad,resalta 
+<i> = Cursiva
+<b> = negrita o bold
+<em> = emphasis italic 
