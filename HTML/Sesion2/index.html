@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Alta de Cliente</title>
+</head>
+<body>
+    <header style="background: #4F5902;">
+        <h1 style="color: #A9BF04; font-size:28px; font-weight: bold;">Compañia Bastian DL Green</h1>
+        <img src="pic/8199876_botanical_nature_plant_leaf_garden_icon.png" alt="pasturri" style="width: 100px;">
+    </header>
+    <nav style="background: #8C6C5A;">
+        <ul>
+            <li><a href="">Inicio</a></list>
+            <li><a href="">Menu 1</a></list>
+            <li><a href="">Menu 2</a></list>
+            <li><a href="">Menu 3</a></list>
+        </ul>
+    </nav>
+    <section style="background:#A9BF04 ;" >
+        <h2>Formulario Alta Clientes</h2>
+        <form action="confirmacion.html" method="get">
+        <h3>Datos personales</h3>
+            <fieldset>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" placeholder="Nombre(s) Paterno Materno">
+                <label for="fecha de nacimiento">Fecha de nacimiento</label>
+                <input type="date" name="fecha de nacimiento" id="fecha de nacimiento">
+            </fieldset>
+            <h3>Dirección</h3>
+            <fieldset>
+                <label for="">Calle</label>
+                <input type="text">
+                <label for="">Numero</label>
+                <input type="number" name="" id="">
+                <label for="region">Región de Chile:</label>
+                <select id="region" name="region" required>
+                    <option value="">Seleccione una región</option>
+                    <option value="arica_y_parinacota">Arica y Parinacota</option>
+                    <option value="tarapaca">Tarapacá</option>
+                    <option value="antofagasta">Antofagasta</option>
+                    <option value="atacama">Atacama</option>
+                    <option value="coquimbo">Coquimbo</option>
+                    <option value="valparaiso">Valparaíso</option>
+                    <option value="metropolitana">Metropolitana de Santiago</option>
+                    <option value="ohiggins">Libertador General Bernardo O'Higgins</option>
+                    <option value="maule">Maule</option>
+                    <option value="nuble">Ñuble</option>
+                    <option value="biobio">Biobío</option>
+                    <option value="araucania">La Araucanía</option>
+                    <option value="rios">Los Ríos</option>
+                    <option value="lagos">Los Lagos</option>
+                    <option value="aysen">Aysén del General Carlos Ibáñez del Campo</option>
+                    <option value="magallanes">Magallanes y de la Antártica Chilena</option>
+                </select>
+            </fieldset>
+        </form>
+
+        <footer style="background: #CCD96A;">Bastian DL Green by Ecamp 0077
+        </footer>
+
+    </section>
+</body>
+</html>

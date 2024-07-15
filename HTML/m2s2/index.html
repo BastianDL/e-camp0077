@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio video</title>
+</head>
+<body>
+    <!--<form action="redireccion.html" method="post">-->
+    <form action="redireccion.html" method="post">
+        <label for="nombre">NOMBRE</label>
+        <input type="text" name="nombre" id="nombre">
+        
+        <label for="direccion">DIRECCIÓN</label>
+        <input type="text" name="direccion" id="direccion">
+
+        <label for="lista">COLOR FAVORITO</label>
+        <input type="text" name="lista" list="colores">
+        <datalist id="colores">     
+            <option value="rojo">ROJO</option>
+            <option value="azul">AZUL</option>
+            <option value="amarillo">AMARILLO</option>
+        </datalist>
+
+        <label for="animales">ANIMALES FAVORITOS</label>
+        <select name="animales" id="animales">
+            <option value="perro">PERRO</option>
+            <option value="gato">GATO</option>
+            <option value="conejo">CONEJO</option>
+        </select>
+
+        <button>ENVIAR</button>
+    
+    
+    </form>
+    
+</body>
+</html>
