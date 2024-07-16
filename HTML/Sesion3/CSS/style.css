@@ -1,0 +1,17 @@
+/*estilo con link*/
+header{
+    background: rgb(11, 194, 194);
+}
+h1{
+    color: rgb(233, 201, 115);
+}
+section{
+    background: brown;
+}
+h2{
+    color: rgb(188, 147, 226);
+}
+img{
+    width: 150px;
+}
+/*agregar dos secciones o nav,o parrafo para probar el uso de disitntos formatos de color como rgb,rgba,hsl,hexac
